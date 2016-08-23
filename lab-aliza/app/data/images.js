@@ -2,18 +2,18 @@
 
 module.exports =  [{
   id: 1,
-  url: 'http://f.cl.ly/items/3g3J1G0w122M360w380O/3726490195_f7cc75d377_o.jpg',
-  description: 'Cute Bunny 1'
+  url: 'https://media.giphy.com/media/14kdiJUblbWBXy/giphy.gif',
+  description: 'Hack the planet'
 }, {
   id: 2,
-  url: 'https://c4.staticflickr.com/5/4070/4479409507_844b7129e7_b.jpg',
-  description: 'Cute Bunny 2'
+  url: 'https://media.giphy.com/media/TOWeGr70V2R1K/giphy.gif',
+  description: 'Hackers in the mainframe'
 }, {
   id: 3,
-  url: 'https://c1.staticflickr.com/3/2019/5824431381_7fc17099d5_b.jpg',
-  description: 'Cute Bunny 3'
+  url: 'http://motherboard-images.vice.com/content-images/contentimage/no-id/1442506168700922.gif',
+  description: 'Floppy disks are cool'
 }, {
   id: 4,
-  url: 'https://upload.wikimedia.org/wikipedia/commons/8/8b/Giant_inflatable_bunnies_have_taken_over_City_Hall._(26412731036).jpg',
-  description: 'Cute Bunny 4'
+  url: 'https://arikia.files.wordpress.com/2013/02/hackers-mathew-lillard.gif',
+  description: 'Pagers are cool too'
 }];

@@ -3,8 +3,8 @@
 require('./error.scss');
 
 const angular = require('angular');
-const bunnyApp = angular.module('bunnyApp');
+const hackersApp = angular.module('hackersApp');
 
-bunnyApp.controller('ErrorController', ['$rootScope', function($rootScope){
+hackersApp.controller('ErrorController', ['$rootScope', function($rootScope){
   this.errorMessage = $rootScope.errorMessage;
 }]);
