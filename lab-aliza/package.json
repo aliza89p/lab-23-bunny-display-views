@@ -1,12 +1,11 @@
 {
-  "name": "ng-template",
+  "name": "lab-23-bunny-display-views",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "watch": "./node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot",
-    "lint": "eslint .",
-    "test": "karama start"
+    "lint": "eslint ."
   },
   "keywords": [],
   "author": "",

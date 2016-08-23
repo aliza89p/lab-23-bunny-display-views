@@ -9,7 +9,7 @@ const angular = require('angular');
 const angular_route = require('angular-route');
 
 // angular modules
-var app = angular.module('demoApp', [angular_route]);
+var app = angular.module('bunnyApp', [angular_route]);
 
 app.run(['$rootScope', function($rootScope){
   $rootScope.imageData = require('./data/images.js');

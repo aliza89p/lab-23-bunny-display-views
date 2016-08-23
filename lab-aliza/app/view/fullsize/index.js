@@ -1,9 +1,9 @@
 'use strict';
 
 const angular = require('angular');
-const demoApp = angular.module('demoApp');
+const bunnyApp = angular.module('bunnyApp');
 
-demoApp.controller('FullsizeController', ['$routeParams', '$rootScope', '$location', function($routeParams, $rootScope, $location){
+bunnyApp.controller('FullsizeController', ['$routeParams', '$rootScope', '$location', function($routeParams, $rootScope, $location){
   this.images = $rootScope.imageData;
 
   this.isValidId = function(id){

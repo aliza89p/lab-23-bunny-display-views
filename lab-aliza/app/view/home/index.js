@@ -1,8 +1,8 @@
 'use strict';
 
 const angular = require('angular');
-const demoApp = angular.module('demoApp');
+const bunnyApp = angular.module('bunnyApp');
 
-demoApp.controller('HomeController', ['$rootScope', function($rootScope) {
+bunnyApp.controller('HomeController', ['$rootScope', function($rootScope) {
   this.images = $rootScope.imageData;
 }]);
