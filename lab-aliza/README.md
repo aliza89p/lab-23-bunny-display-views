@@ -6,7 +6,7 @@
 4. `git checkout lab-23`  
 5. `cd lab-aliza`  
 6. `webpack`  
-7. Start application: `npm run watch`  
+7. Start application: `npm run watch` OR `nodemon server.js`
 8. In browser, open `localhost:8080` and use app  
 9. Testing: `karma start`  
 10. Lint: `npm run lint`  

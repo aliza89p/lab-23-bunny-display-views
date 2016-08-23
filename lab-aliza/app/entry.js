@@ -19,22 +19,22 @@ app.run(['$rootScope', function($rootScope){
 app.config(['$routeProvider', function($route) {
   $route
     .when('/', {
-      templateUrl: '/app/view/home/home.html',
+      template: require('./view/home/home.html'),
       controller: 'HomeController',
       controllerAs: 'hc'
     })
     .when('/thumbnail', {
-      templateUrl: '/app/view/thumbnail/thumbnail.html',
+      template: require('./view/thumbnail/thumbnail.html'),
       controller: 'ThumbnailController',
       controllerAs: 'th'
     })
     .when('/fullsize/:id', {
-      templateUrl: '/app/view/fullsize/fullsize.html',
+      template: require('./view/fullsize/fullsize.html'),
       controller: 'FullsizeController',
       controllerAs: 'fs'
     })
     .when('/error', {
-      templateUrl: '/app/view/error/error.html',
+      template: require('./view/error/error.html'),
       controller: 'ErrorController',
       controllerAs: 'er'
     })
